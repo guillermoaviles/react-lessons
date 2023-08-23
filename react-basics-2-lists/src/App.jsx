@@ -2,6 +2,7 @@ import "./App.css";
 import SimpleList from "./components/SimpleList";
 import Students from "./components/Students";
 import ProjectList from "./components/ProjectList";
+import MoviesList from "./components/MoviesList";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <SimpleList />
       <Students />
       <ProjectList />
+      <MoviesList />
     </div>
   );
 }
